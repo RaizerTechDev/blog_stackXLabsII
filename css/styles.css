@@ -1,0 +1,383 @@
+/* Estilos para o layout básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://media.giphy.com/media/cOz9pFwOhSoQzqyZRe/giphy.gif);
+}
+
+header {
+  background-color: rgb(48, 48, 48);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#logo {
+  width: 120px;
+  height: 90px;
+  margin-right: 75rem;
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+#logo-1 {
+  width: 120px;
+  height: 90px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+h1 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: -30px;
+}
+
+h1 span {
+  color: #27ae60;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: larger;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+nav ul li a:hover {
+  color: #3088bb;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+/* Estilos para os cards dos posts */
+
+.post-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #2e2d2d;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.post-card:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.post-card img {
+  max-width: 100%;
+}
+
+.post-card h2 {
+  text-align: center;
+  color: #27ae60;
+}
+
+.date_card {
+  font-size: 0.8em;
+  color: #e00808;
+  font-weight: bold;
+}
+
+.category_card {
+  display: inline;
+  font-size: 1.2em;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.content_card {
+  font-size: 1.2em;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.views {
+  display: inline;
+}
+
+/* Estilos para a página de visualização do post */
+.post-view {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  background-color: #2e2d2d;
+}
+
+.post-view h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.post-view h1 {
+  text-align: center;
+  margin-top: -20px;
+  font-size: 40px;
+  color: #27ae60;
+}
+
+.post-view p {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.post-view strong {
+  color: #27ae60;
+}
+
+.titulo {
+  font-weight: bold;
+}
+
+.img_post1 {
+  width: 150px;
+  height: 50px;
+}
+
+.share_title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-left: 180px;
+  color: #27ae60;
+  text-transform: uppercase;
+}
+
+#logo1 {
+  width: 40px;
+  height: 60px;
+  margin-top: -2em;
+  margin-left: 17rem;
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+/* footer */
+footer {
+  background: url("../images/fundo-redes-sociais.jpg") no-repeat;
+  padding: 5em 0;
+  padding-bottom: 40px;
+  border-top: 5px solid #3381f3;
+}
+footer img {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+footer h2,
+footer p,
+footer a,
+footer span {
+  font-weight: bold;
+  color: #2b2b2b;
+}
+footer h2 span {
+  color: #27ae60;
+}
+
+footer h2 {
+  font-weight: 400;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+.footer-box {
+  width: 31%;
+  padding: 1%;
+  float: left;
+}
+footer .wrapper:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.company-footer h2 {
+  width: 80%;
+  margin-top: -2em;
+  margin-left: 3em;
+  color: #095f04;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.salut-footer {
+  width: 18%;
+  margin-top: -2em;
+  margin-left: 7em;
+}
+
+.footer-list li {
+  margin-bottom: 15px;
+}
+
+.footer-list a {
+  transition: 0.5s;
+}
+
+.redes-sociais {
+  color: #095f04;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-list a:hover {
+  color: #fff;
+}
+
+.footer-list li:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.fab {
+  font-size: 30px;
+  margin-right: 10px;
+  float: left;
+}
+
+.footer-list li span {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #b2b2b2;
+  background-color: rgb(48, 48, 48);
+}
+
+.footer-bottom p {
+  height: 200px;
+  border-top: 4px solid #111;
+  color: #27ae60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+}
+.footer-bottom a {
+  color: #b2b2b2;
+}
+.footer-bottom a:hover {
+  color: #57e994;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  nav ul li a {
+    font-size: 16px;
+    letter-spacing: 5px;
+    line-height: 38px;
+  }
+
+  #logo {
+    margin-left: 0.8rem;
+    cursor: pointer;
+    margin-top: -20px;
+  }
+
+  #logo-1 {
+    margin-left: 15rem;
+    margin-top: -7rem;
+    cursor: pointer;
+  }
+
+  .post-view p {
+    word-spacing: -2px;
+  }
+
+  .share_title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #27ae60;
+    text-transform: uppercase;
+    word-spacing: 1px;
+  }
+
+  #logo1 {
+    width: 40px;
+    height: 60px;
+    margin-top: -2em;
+    margin-left: 7rem;
+    cursor: pointer;
+    padding: 20px 0;
+  }
+
+  .footer-box {
+    display: block;
+    width: 100%;
+    margin-top: -2em;
+    margin-left: -2em;
+  }
+
+  .company-footer h2 {
+    width: 88%;
+    margin-top: 1em;
+    margin-left: 39px;
+    font-size: 1.5em;
+  }
+
+  .salut-footer {
+    width: 33%;
+    height: 25%;
+    margin-top: -2em;
+    margin-left: 3.6em;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+  }
+}
