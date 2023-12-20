@@ -13,6 +13,8 @@ header {
   padding: 20px 0;
 }
 
+/* Estilos para as logos e o título    */
+
 #logo {
   width: 120px;
   height: 90px;
@@ -28,20 +30,38 @@ header {
   margin: 20px;
 }
 
+.main-title {
+  text-align: center;
+}
+
 h1 {
+  margin-top: 5px;
   position: relative;
   text-transform: uppercase;
-  font-size: 3.5rem;
+  font-size: 3.6rem;
   font-weight: 700;
   color: #fff;
-  margin-top: -30px;
 }
 
 h1 span {
   color: #27ae60;
 }
+.main-title .bg-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  color: #2a2e35;
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 6.8rem;
+}
+
+/* Nav */
 
 nav ul {
+  margin-top: 50px;
   list-style-type: none;
   padding: 0;
 }
@@ -59,7 +79,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #3088bb;
+  color: #27ae60;
   text-decoration: none;
 }
 
@@ -315,10 +335,8 @@ footer .wrapper:after {
 }
 
 @media screen and (max-width: 576px) {
-  nav ul li a {
-    font-size: 16px;
-    letter-spacing: 5px;
-    line-height: 38px;
+  h1 {
+    font-size: 3.2rem;
   }
 
   #logo {
@@ -331,6 +349,16 @@ footer .wrapper:after {
     margin-left: 15rem;
     margin-top: -7rem;
     cursor: pointer;
+  }
+
+  nav ul {
+    margin-top: -20px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    letter-spacing: 5px;
+    line-height: 38px;
   }
 
   .post-view p {
@@ -381,3 +409,4 @@ footer .wrapper:after {
     align-items: center;
   }
 }
+
