@@ -209,7 +209,7 @@ li {
   padding: 20px 0;
 }
 
-/* footer */
+/* footer (rodapé) */
 footer {
   background: url("../images/fundo-redes-sociais.jpg") no-repeat;
   padding: 5em 0;
@@ -335,6 +335,8 @@ footer .wrapper:after {
 }
 
 @media screen and (max-width: 576px) {
+  
+  /* Estilos para as logos e o título  */  
   h1 {
     font-size: 3.2rem;
   }
@@ -351,6 +353,7 @@ footer .wrapper:after {
     cursor: pointer;
   }
 
+  /* nav */
   nav ul {
     margin-top: -20px;
   }
@@ -361,6 +364,7 @@ footer .wrapper:after {
     line-height: 38px;
   }
 
+/* Estilos para a página de visualização do post */
   .post-view p {
     word-spacing: -2px;
   }
@@ -383,6 +387,7 @@ footer .wrapper:after {
     padding: 20px 0;
   }
 
+  /* fotter(rodapé)*/
   .footer-box {
     display: block;
     width: 100%;
