@@ -69,7 +69,7 @@ const posts = [
       </p>
       <br><br>   
       
-      <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFATECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%2Fhttp://127.0.0.1:5503%2Findex.html"
+      <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFA76TECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%20https%3A%2F%2Fblog-rafa76tech.netlify.app"
       target="_blank"
       rel="external" >     
       <span class="share_title">Compartilhe esse artigo. </span>
@@ -120,7 +120,7 @@ const posts = [
         </p>  
         <br><br>
       
-        <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFATECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%2Fhttp://127.0.0.1:5503%2Findex.html"
+        <a href= "https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFA76TECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%20https%3A%2F%2Fblog-rafa76tech.netlify.app"
         target="_blank"
         rel="external" >     
         <span class="share_title">Compartilhe esse artigo. </span>
@@ -242,7 +242,7 @@ const posts = [
     </p>  
     <br>  
       
-        <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFATECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%2Fhttp://127.0.0.1:5503%2Findex.html"
+        <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFA76TECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%20https%3A%2F%2Fblog-rafa76tech.netlify.app"
         target="_blank"
         rel="external" >     
         <span class="share_title">Compartilhe esse artigo. </span>
@@ -278,7 +278,7 @@ const posts = [
       </p>  
       <br><br>
       
-      <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFATECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%2Fhttp://127.0.0.1:5503%2Findex.html"
+      <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFA76TECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%20https%3A%2F%2Fblog-rafa76tech.netlify.app"
       target="_blank"
       rel="external" >     
       <span class="share_title">Compartilhe esse artigo. </span>
@@ -326,7 +326,7 @@ function displayPosts(categoryFilter = "") {
   }
 }
 
-// Função para obter o número de visualizações de um post 
+// Função para obter o número de visualizações de um post
 function getPostViews(postId) {
   const views = localStorage.getItem(`postViews_${postId}`);
   return views ? parseInt(views) : 0;
@@ -383,3 +383,4 @@ document.getElementById("internet-of-thing").addEventListener("click", () => {
 
 // Exibe todas as postagens na inicialização
 displayPosts("");
+
