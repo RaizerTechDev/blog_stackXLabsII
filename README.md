@@ -25,6 +25,15 @@
 ### Projeto do curso StackX, do módulo StackX Lab II, onde consiste:
 - Desenvolver um blog estático composto de duas páginas: a página inicial e página de visualização de um post específico.
 -  A página inicial também deve possuir uma barra de navegação contendo o nome ou logo do blog e um filtro de postagens por categoria (utilize no máximo 4 categorias diferentes predefinidas). Ao clicar sobre uma categoria, apenas as postagens referentes a categoria escolhida devem ser exibidas.
+-  A página de visualização do post deve exibir a postagem completa com todas as suas informações. Ela também deve conter uma barra de navegação contendo um link para a página de postagens que ao ser clicado, retorna para ela}.
+- No arquivo Java Script a ação interpretada para interação do usuário com o site:
+  
+   ###### *✔ Criou a variável posts com => Id, title, content, date, category e views.*
+   ###### *✔ Funções para exibir os cards na página principal.*
+   ###### *✔ Funções para obter, salvar os números de visualizações e armazenar os dados (localStorage).*
+   ###### *✔ Função para exibir a página de visualização e incrementar o número de visualizações e salvar e armazenar os dados (localStorage).*
+   ###### *✔ Adicionar eventos de “clique” aos links da categoria.*
+   ###### *✔ Exibir todas as postagens.*
 
   <br>
 
