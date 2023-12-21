@@ -294,7 +294,6 @@ const posts = [
   },
 ];
 
-// Função para exibir os cards de postagens na página inicial
 function displayPosts(categoryFilter = "") {
   const postList = document.getElementById("post-list");
   postList.innerHTML = "";
@@ -326,18 +325,15 @@ function displayPosts(categoryFilter = "") {
   }
 }
 
-// Função para obter o número de visualizações de um post
 function getPostViews(postId) {
   const views = localStorage.getItem(`postViews_${postId}`);
   return views ? parseInt(views) : 0;
 }
 
-// Função para salvar o número de visualizações de um post armazenando dados(localStorage)
 function savePostViews(postId, views) {
   localStorage.setItem(`postViews_${postId}`, views.toString());
 }
 
-// Função para exibir a página de visualização do post
 function viewPost(post) {
   const postList = document.getElementById("post-list");
   postList.innerHTML = "";
@@ -355,14 +351,12 @@ function viewPost(post) {
         <h1>${post.title}</h1>
         <p>${post.content}</p>
     `;
-
-  // Incrementa o número de visualizações e salva no localStorage
+ 
   savePostViews(postId, postViews + 1);
 
   postList.appendChild(postView);
 }
 
-// Adiciona os eventos de clique aos links de categorias
 document.getElementById("all-categories").addEventListener("click", () => {
   displayPosts("");
 });
@@ -381,6 +375,5 @@ document.getElementById("internet-of-thing").addEventListener("click", () => {
   displayPosts("Internet das Coisas(IOT)");
 });
 
-// Exibe todas as postagens na inicialização
 displayPosts("");
 
