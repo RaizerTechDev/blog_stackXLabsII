@@ -69,7 +69,7 @@ const posts = [
       </p>
       <br><br>   
       
-      <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFA76TECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%20https://blog-rafa76tech.netlify.app/"
+      <a href="https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFA76TECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%20https%3A%2F%2Fblog-rafa76tech.netlify.app"
       target="_blank"
       rel="external" >     
       <span class="share_title">Compartilhe esse artigo. </span>
@@ -120,7 +120,7 @@ const posts = [
         </p>  
         <br><br>
       
-        <a href= "https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFA76TECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%20https://blog-rafa76tech.netlify.app/
+        <a href= "https://api.whatsapp.com/send?phone=&text=Li%20os%20%C3%BAltimos%20artigos%20do%20blog-%20RAFA76TECH!!!%20Clica%20no%20Link%20que%20voc%C3%AA%20vai%20gostar.%20Confira%3A%20https%3A%2F%20https%3A%2F%2Fblog-rafa76tech.netlify.app"
         target="_blank"
         rel="external" >     
         <span class="share_title">Compartilhe esse artigo. </span>
@@ -376,4 +376,3 @@ document.getElementById("internet-of-thing").addEventListener("click", () => {
 });
 
 displayPosts("");
-
