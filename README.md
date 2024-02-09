@@ -20,6 +20,16 @@
 
 <br>
 
+<div align="center">
+  
+<img src= "https://media.giphy.com/media/3zSF3Gnr7cxMbi6WoP/giphy.gif" align="center" height="55" width="55"> [Demonstração-Blog]<img src= "https://media.giphy.com/media/E5DzZsofmgxc9wjbhX/giphy.gif" align="center" height="35" width="35">
+
+<img height="480em" src= "images/apresentacao-Readme.gif"  align="center"> 
+
+<br>
+
+***
+
 <div align="left">  
 
 ### Projeto do curso StackX, do módulo StackX Lab II, onde consiste:
@@ -36,12 +46,6 @@
    ###### *✔ Exibir todas as postagens.*
 
   <br>
-
-<div align="center">
-  
-<img src= "https://media.giphy.com/media/3zSF3Gnr7cxMbi6WoP/giphy.gif" align="center" height="55" width="55"> [Demonstração-Blog]<img src= "https://media.giphy.com/media/E5DzZsofmgxc9wjbhX/giphy.gif" align="center" height="35" width="35">
-
-<img height="480em" src= "images/apresentacao-Readme.gif"  align="center"> 
 
 <div align="left">
 
